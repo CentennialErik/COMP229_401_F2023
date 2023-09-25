@@ -1,3 +1,4 @@
+/*ErikSkaragos_Portfolio, Erik Skaragos, 301344796, September 24,2023. */
 html {
     background: linear-gradient(to bottom, #666666, #f0f0f0);
 }
@@ -60,6 +61,7 @@ footer {
     padding: 10px 0;
 }
 
+/* about me page specific configuration. */
 .about-container {
     display: flex;
     align-items: center;
@@ -72,4 +74,46 @@ footer {
 
 .bio {
     flex-grow: 1;
+}
+
+/* Projects page specific configuration */
+#projects {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.project {
+    display: flex; 
+    margin-bottom: 30px; 
+}
+
+.project-image {
+    flex: 1; 
+    max-width: 300px; 
+    margin-right: 20px; 
+    scale: 75%;
+}
+
+
+.project-description {
+    flex: 2; 
+    text-align: left; 
+    margin-left: 1200px;
+    margin-right: 150px;
+}
+
+
+.project-description h2 {
+    font-size: 24px; 
+    margin-top: 0; 
+}
+
+
+.project-description p {
+    font-size: 16px; 
+}
+
+
+.project:not(:last-child) {
+    border-bottom: 1px solid #ccc; 
 }

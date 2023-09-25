@@ -1,3 +1,4 @@
+/*ErikSkaragos_Portfolio, Erik Skaragos, 301344796, September 24,2023. */
 process.env.NDOE_ENV = process.env.NODE_ENV || 'development'
 
 var express = require('./config/express');

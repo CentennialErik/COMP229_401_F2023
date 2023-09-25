@@ -3,23 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content=""width=device-width, initial-scale="1.0">
-    <title>Home | Erik Skaragos Portfolio</title>
+    <title>Projects | Erik Skaragos Portfolio</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+<!--ErikSkaragos_Portfolio, Erik Skaragos, 301344796, September 24,2023.-->
 <body>
-    <header>
-        <div class="logo">
-            <img src="/images/Logo.png" alt="Logo">
+    <!--adds header-->
+    <%- include('partials/header') %>
+    <!--3 projects-->
+    <section id="projects">
+        <h1>Projects</h1>
+        <br>
+        <hr>
+        <br>
+        <div class="project">
+            <div class="project-image">
+                <img src="/images/project1.png" alt="Project 1">
+            </div>
+            <div class="project-description">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h2>Project 1: Fraction Calculator with GUI</h2>
+                <p>
+                    This is the fraction calculator app that I have made using C#. It allows for the user to input the desired numerator and denominator of two
+                    fractions and perform basic math (addition, subtraction, multiplication, division) and provides the user with the output. This program is paired
+                    with a GUI (Graphical User Interface) for ease of use by the user.
+                </p>
+            </div>
         </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-        </nav>
-    </header>
+
+        <div class="project">
+            <div class="project-image">
+                <img src="/images/project2.png" alt="Project 2">
+            </div>
+            <div class="project-description">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h2>Project 2: Full Single Player Game</h2>
+                <p>
+                    This project is currently in progress. This is a single player open world video game, emulating the gameplay style of the SoulsBourne game series. I am
+                    constructing this game using C# to create all the scripts, as well as the Unity game developer program to compile the animations. This is intended to be a 
+                    large project and will require a lot of time to complete. Currently this project has a moveable character that can attack and defend. The character also has a 
+                    functioning health bar that the test enemy skeleton can inflict damage too.
+                </p>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-image">
+                <img src="/images/project3.png" alt="Project 3">
+            </div>
+            <div class="project-description">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h2>Project 3: Web Based JavaScript Game</h2>
+                <p>
+                    This third project is an online web browser clicking game. Where with each succesful click on the insect, the speed in which the insect moves will increase
+                    as well as the counter will increase to show the score of the person playing. This is a very basic web browser game utilizing JavaScript and HTML.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--adds footer-->
+    <%- include('partials/footer') %>
 </body>
 </html>

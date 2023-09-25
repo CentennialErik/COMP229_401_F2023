@@ -6,20 +6,71 @@
     <title>Home | Erik Skaragos Portfolio</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+<!--ErikSkaragos_Portfolio, Erik Skaragos, 301344796, September 24,2023.-->
 <body>
-    <header>
-        <div class="logo">
-            <img src="/images/Logo.png" alt="Logo">
-        </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-              </ul>
-        </nav>
-    </header>
+    <!--adds header-->
+    <%- include('partials/header') %>
+    <!--Services provided-->
+    <section>
+        <h1>Services</h1>
+        <br><hr><br>
+        <ul class="service-list">
+            <li>
+                <h2>Web Design</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Professional web design services to create visually appealing and user-friendly websites for your business or personal needs.
+                </p>
+            </li>
+            <br><hr><br>
+
+            <li>
+                <h2>App Development for Android</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Android app development. Creating mobile applications that run smoothly on Android devices.
+                </p>
+            </li>
+            <br><hr><br>
+
+            <li>
+                <h2>App Development for Windows</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Windows applications tailored to your requirements, ensuring functionality and user satisfaction.
+                </p>
+            </li>
+            <br><hr><br>
+
+            <li>
+                <h2>Video Game Design</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Create immersive and exciting video games, including both 2D and 3D games.
+                </p>
+            </li>
+            <br><hr><br>
+
+            <li>
+                <h2>3D Modeling</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;3D modeling and rendering services, bringing your ideas and designs to life in three dimensions.
+                </p>
+            </li>
+            <br><hr><br>
+            
+            <li>
+                <h2>Programming with C#, Java, Python, HTML, JavaScript</h2>
+                <br>
+                <p>
+                    &nbsp;&nbsp;&nbsp;Experienced and extensive programming knowledge that can assist you with various programming languages, including C#, Java, Python, HTML, and JavaScript.
+                </p>
+            </li>
+        </ul>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </section>
+    <!--adds footer-->
+    <%- include('partials/footer') %>
 </body>
 </html>
