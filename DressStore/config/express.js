@@ -20,7 +20,7 @@ module.exports = function () {
   app.set('view engine', 'ejs');
   app.set('views', path.join(__dirname, '../views'));
 
-  mongoose.connect('mongodb+srv://eskarago:DressStore@dressstore.rc3pfo8.mongodb.net/', {
+  mongoose.connect('mongodb+srv://eskarago:DressStore@dressstore.rc3pfo8.mongodb.net/Marketplace', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
